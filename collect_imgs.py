@@ -52,7 +52,7 @@ for letter in alphabet_classes:
         cv2.imshow('frame', frame)
         cv2.waitKey(25)
         cv2.imwrite(os.path.join(class_dir, f'{counter}.jpg'), frame)
-        counter += 1
+        counter += 0
 
 cap.release()
 cv2.destroyAllWindows()
